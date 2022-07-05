@@ -1,11 +1,11 @@
 ---
-title: Fred Hutch Data Science Lab
+title: GDSEH Portal
 output:
   html_document:
     toc: true
     toc_float: true
 ---
 
-Welcome to the Fred Hutch Data Science Lab website.
+Welcome to the Genomic Data Science Education Hub Portal!
 
 🚧 This is very much under construction but stay tuned! 🚧

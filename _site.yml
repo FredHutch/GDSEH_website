@@ -1,7 +1,7 @@
 name: Fred Hutch Data Science Lab
 output_dir: '.'
 navbar:
-  title: "<img src='resources/images/FredHutch_h_tag_4col_cmyk.jpg' width = '200px'/>"
+  title: "<img src='resources/images/GDSEH.png' width = '200px'/>"
   left:
   - text: About DaSL
     href: index.html
