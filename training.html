@@ -13,8 +13,8 @@
 
 <title>Training</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -64,6 +64,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -88,6 +89,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -313,12 +317,12 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html"><img src='resources/images/FredHutch_h_tag_4col_cmyk.jpg' width = '200px'/></a>
+      <a class="navbar-brand" href="index.html"><img src='resources/images/GDSEH.png' width = '200px'/></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -330,7 +334,7 @@ div.tocify {
   </a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="fa fa-road"></span>
      
     Resources and Infrastructure
@@ -348,7 +352,7 @@ div.tocify {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="fa fa-graduation-cap"></span>
      
     Training
@@ -373,7 +377,7 @@ div.tocify {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="fa fa-users"></span>
      
     Community
@@ -391,7 +395,7 @@ div.tocify {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="fa fa-handshake"></span>
      
     Support
@@ -441,7 +445,8 @@ div.tocify {
 
 <div id="materials" class="section level2">
 <h2>Materials</h2>
-<p>See some materials on <a href="http://www.fredhutch.io/resources/">fredhutch.io</a></p>
+<p>See some materials on <a
+href="http://www.fredhutch.io/resources/">fredhutch.io</a></p>
 </div>
 <div id="calendar" class="section level2">
 <h2>Calendar</h2>
@@ -451,9 +456,9 @@ div.tocify {
 <hr>
 <center>
   <div class="footer">
-    <img src="resources/images/FredHutch_v_tag_4col_cmyk.jpg" width=85>
+    <img src="resources/images/GDSEH.png" width=85>
     <br>
-    <a href="https://github.com/jhudsl/OTTR_Template/issues/new/choose">File a GitHub issue here</a>.
+    <a href="https://github.com/FredHutch/GDSEH_website/issues/new/choose">File a GitHub issue here</a>.
   </div>
 </center>
 
