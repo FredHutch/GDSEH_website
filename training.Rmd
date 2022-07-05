@@ -1,0 +1,14 @@
+---
+title: Training
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Materials
+
+See some materials on [fredhutch.io](http://www.fredhutch.io/resources/)
+
+## Calendar
+TBD

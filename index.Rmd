@@ -1,0 +1,11 @@
+---
+title: Fred Hutch Data Science Lab
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+Welcome to the Fred Hutch Data Science Lab website.
+
+🚧 This is very much under construction but stay tuned! 🚧

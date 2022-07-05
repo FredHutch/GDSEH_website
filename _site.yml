@@ -1,0 +1,52 @@
+name: Fred Hutch Data Science Lab
+output_dir: '.'
+navbar:
+  title: "<img src='resources/images/FredHutch_h_tag_4col_cmyk.jpg' width = '200px'/>"
+  left:
+  - text: About DaSL
+    href: index.html
+    icon: fa-home
+  - text: Resources and Infrastructure
+    href: resources_and_infrastructure.html
+    icon: fa-road
+    menu:
+      - text: SciWiki
+        href: http://sciwiki.fredhutch.org/
+        icon: fa-books
+  - text: Training
+    href: training.html
+    icon: fa-graduation-cap
+    menu:
+      - text: Materials
+        href: http://www.fredhutch.io/resources/
+        icon: fa-book
+      - text: Calendar
+        href: training.html#calendar
+        icon: fa-calendar
+  - text: Community
+    href: community.html
+    icon: fa-users
+    menu:
+      - text: Slack
+        href: http://fhdata.slack.com/
+        icon: fa-slack
+  - text: Support
+    href: support.html
+    icon: fa-handshake
+    menu:
+      - text: Collaboration
+        href: support.html#collaboration
+        icon: fa-handshake
+      - text: Office Hours
+        href: support.html#office-hours
+        icon: fa-clock
+  - text: GitHub
+    href: https://github.com/fredhutch
+    icon: fa-github
+
+output:
+  html_document:
+    css: style.css
+    includes:
+      in_header: resources/header.html
+      after_body: resources/footer.html
