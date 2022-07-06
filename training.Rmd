@@ -6,9 +6,10 @@ output:
     toc_float: true
 ---
 
-## Materials
+## Learning Pathways {#pathways}
 
-See some materials on [fredhutch.io](http://www.fredhutch.io/resources/)
 
-## Calendar
-TBD
+## Instructor Support {#instructor-support}
+
+
+## R25 + Grant Support {#grants}
