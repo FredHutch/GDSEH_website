@@ -1,5 +1,5 @@
 ---
-title: Resources and Infrastructure
+title: Resources
 output:
   html_document:
     toc: true
